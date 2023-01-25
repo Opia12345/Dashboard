@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Account</title>
+    <link rel="icon" href="assets/img/nav/earn.png" type="image/x-icon" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/mdb.min.css" />
+    <link rel="stylesheet" href="assets/css/mdb.dark.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css" />
+  </head>
+
+  <style>
+    *{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+.nav-tabs{
+  display: inline;
+  position: relative;
+margin-top: 1em;
+
+}
+
+small{
+    font-size: 0.6em;
+}
+b{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.btn{
+    border-radius: 10px;
+}
+h5{
+    margin-left: 0.7em;
+}
+
+.cont{
+    text-align: start;
+    width: 50em;
+    height: auto;
+    border-radius: 1em 1em 0 0;
+    background: rgba(126, 126, 126, 0.199);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+.fa{
+  font-size: 2em;
+}
+.popup{
+      width: 300px;
+      height: auto;
+      border-radius: 6px;
+      position: absolute;
+      transform: translate(-50%, -50%) scale(0.1);
+      text-align: center;
+      top: 0;
+      left: 50%;
+      padding:0 30px 30px;
+      border-radius: 10px;
+       background: rgba(126, 126, 126, 0.938);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      visibility: hidden;
+      transition: transform 0.4s top 0.4s;
+    }
+    .popup i{
+      width: 50px;
+      margin-top: -50%;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    .popup button{
+      width: 20em;
+    }
+    i.fa-check{
+      animation: animate 3s linear infinite;
+      text-shadow: 0 0 50px #ffffff;
+      font-size: 3em;
+      background-color: rgb(0, 195, 255);
+      border-radius: 2em;
+    }
+    .open-popup{
+      visibility: visible;
+      top: 50%;
+      transform: translate(-50%, -50%) scale(1);
+
+    }
+</style>
+
+  <body>
+    <!-- Start your project here-->
+    <div class="container d-flex h-100 align-items-center justify-content-center">
+      <ul class="nav nav-tabs">
+          <li class="active">
+          <a href="dashboard.html">
+  <i class="fa fa-home" style="color: rgb(103, 199, 255); font-size: 2em;">
+      <br><small style="margin-left: -0.6em;">Home</small></a></li></i>
+          <li><a href="buy.html" >
+              <i class="fa fa-bar-chart-o" style="color: rgb(103, 199, 255); font-size: 2em;">
+                  <br><small style="margin-left: -0.6em;">Buy/Sell</small></a></li></i>
+                  <li><a href="Investments.html">
+                    <i class="fa fa-external-link-square" style="color: rgb(103, 199, 255); font-size: 2em;">
+                        <br><small style="margin-left: -0.6em;">Cases</small></a></li></i>
+          <li>
+            <a href="profile.html">
+              <i class="fa fa-user" style="color: rgb(103, 199, 255); font-size: 2em;">
+                  <br><small style="margin-left: -0.6em;">Profile</small></a></li></i>
+                  
+          </ul>
+        </div>
+
+        <div class="container h-100 justify-content-center align-items-center">
+          <div class="popup" id="popup">
+            <i class="fa fa-check"></i>
+            <p style="margin-top: 2em; color: white;"><h3>Confirmed!</h3><br>
+              Funds will be credited within 1-2 hours.</p>
+          </div>
+        </div>
+
+
+        <div class="container d-flex h-100 justify-content-center align-items-center" style="margin-top: 4em;">
+          <h1 style="text-align: center;">Deposit Funds into Your Wallet<br>
+            <small>Please transfer to this unique bank account for this deposit.<br>
+              A new account will be generated for your next transaction. <br>
+              Do not send from third party banks. 
+            </small>
+          </h1>
+        </div>
+
+      
+        
+        <div class="container d-flex h-100 align-items-center justify-content-between" 
+        style="margin-top: 6em;">
+           
+              <h4 style="color: white;">Account Name
+                <p><small>Earnings3356</small></p></h4>
+      
+  
+            <div class="side_text">
+            <i class="fa fa-copy" style="color: rgb(103, 199, 255);"></i>
+             <p><h6 style="margin-top: -1em;">Copy to clipboard</p></h6>
+        </div>
+      </div>
+<hr>
+
+<div class="container d-flex h-100 align-items-center justify-content-between" 
+style="margin-top: 2em;">
+   
+      <h4 style="color: white;">Account Number
+        <p><small>1234567890</small></p></h4>
+
+
+    <div class="side_text">
+    <i class="fa fa-copy" style="color: rgb(103, 199, 255);"></i>
+     <p><h6 style="margin-top: -1em;">Copy to clipboard</p></h6>
+</div>
+</div>
+
+<hr>
+<div class="container d-flex h-100 align-items-center justify-content-between" 
+style="margin-top: 2em;">
+   
+      <h4 style="color: white;">Service provider
+        <p><small>UBA</small></p></h4>
+
+
+    <div class="side_text">
+    <i class="fa fa-copy" style="color: rgb(103, 199, 255);"></i>
+     <p><h6 style="margin-top: -1em;">Copy to clipboard</p></h6>
+</div>
+</div>
+<hr>
+
+<div class="container d-flex h-100 align-items-center justify-content-center" 
+style="margin-top: 2em;">
+   
+      <h4 style="color: white; text-align: center;">Note!
+        <p><small>Send the specified amount to the above service provider. 
+          Crypto cannot be used in this transaction.</small></p></h4>
+     
+        </div>
+
+
+
+<div class="container h-100 d-flex justify-content-center align-items-center" style="margin-top: 3em;">
+<h3>Click continue once the transfer is complete</h3>
+</div>
+
+<div class="container h-100 d-flex justify-content-center align-items-center">
+  <a href="#">
+<div class="btn btn-info btn-lg" onclick="openPopup()">
+  proceed <i class="fa fa-chevron-right" style="font-size: 1em;"></i>
+</div></a>
+</div>
+
+<div class="below" style="color:rgb(103, 199, 255); height: 2em;"></div>
+
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>

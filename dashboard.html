@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>My Dashboard</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="assets/img/nav/earn.png" type="image/x-icon" />
+    <!-- MDB -->
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/css/mdb.min.css" rel="stylesheet">
+    <link href="assets/css/mdb.dark.min.css" rel="stylesheet">
+
+<!--Custom CSS-->
+
+<style>
+    *{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    body{
+        background-image: url("assets/img/back-2.png");
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-position-x: right;
+        background-size: 50em;
+    }
+
+.wallet_bg{
+      text-align: center;
+      width: 90em;
+      height: 30em;
+      margin-top: 3em;
+      border-radius: 10px;
+      background: rgba(126, 126, 126, 0.678);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+
+  
+}
+
+.nav-tabs{
+  display: inline;
+  position: relative;
+margin-top: 1em;
+
+}
+
+small{
+    font-size: 0.6em;
+}
+h1,b{
+    font-size: 3em;
+    font-weight: bolder;
+}
+h4{
+    margin-top: 2em;
+    font-size: 2em;
+    color: rgb(103, 199, 255);
+}
+.round{
+    text-align: center;
+      width: 3em;
+      height: 3em;
+      border-radius: 50%;
+      background: rgba(126, 126, 126, 0.199);
+      backdrop-filter: blur(4px);
+      -webkit-backdrop-filter: blur(4px);
+      border: 1px solid white;
+}
+.btn{
+    border-radius: 10px;
+}
+h5{
+    margin-left: 0.7em;
+    text-align: center;
+}
+.no4{
+    visibility: visible;
+}
+.visible_not{
+visibility: hidden;
+}
+</style>
+
+  </head>
+  <body>
+      <div class="container d-flex h-100 align-items-center justify-content-center">
+    <ul class="nav nav-tabs">
+        <li class="active">
+        <a href="dashboard.html">
+<i class="fa fa-home" style="color: rgb(103, 199, 255); font-size: 2em;">
+    <br><small style="margin-left: -0.6em;">Home</small></a></li></i>
+        <li><a href="buy-sell.html" >
+            <i class="fa fa-bar-chart-o" style="color: rgb(103, 199, 255); font-size: 2em;">
+                <br><small style="margin-left: -0.6em;">Buy/Sell</small></a></li></i>
+                <li><a href="Investments.html">
+                    <i class="fa fa-external-link-square" style="color: rgb(103, 199, 255); font-size: 2em;">
+                        <br><small style="margin-left: -0.6em;">Cases</small></a></li></i>
+        <li><a href="profile.html">
+            <i class="fa fa-user" style="color: rgb(103, 199, 255); font-size: 2em;">
+                <br><small style="margin-left: -0.6em;">Profile</small></a></li></i>
+                
+        </ul>
+      </div>
+    <!-- Start your project here-->
+   
+
+        <div class="container h-100 d-flex justify-content-center align-items-center" style="margin-top: 4em;">
+        <h1>My Wallet</h1></div>
+
+        <div class="container h-100 d-flex justify-content-center align-items-center">
+  <div class="wallet_bg">
+<h4>Total Holdings</h4><br>
+<b>&dollar;0.00</b>
+
+
+<div class="container h-100 d-flex justify-content-between align-items-center" style="margin-top: -3em;">
+    <h5>Invested<br>&dollar;0.00</h5>
+    <a style="border-inline-end: solid 2px rgb(103, 199, 255); height: 3em;">
+        <b style="visibility: hidden;">.</b></a>
+
+    <h5>In Wallet<br>&dollar;0.00</h5>
+    </div>
+  </div>
+</div>
+
+
+<div class="container d-flex h-100 justify-content-evenly align-items-center" style="margin-top: 3em;">
+<div class="row">
+    <div class="col-lg-8">
+   <a href="buy.html" class="btn btn-info">
+       <i class="fa fa-usd" style="font-size: 5em;"></a></i>
+       <p><h5>Deposit</h5></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+   <a href="invest.html" class="btn btn-info">
+       <i class="fa fa-btc" style="font-size: 5em;"></a></i>
+       <p><h5>Invest</h5></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+   <a href="withdraw-1.html" class="btn btn-info">
+       <i class="fa fa-sign-out" style="font-size: 4.5em;"></a></i>
+       <p><h5>Withdraw</h5></p>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8">
+   <a href="history.html" class="btn btn-info">
+       <i class="fa fa-archive" style="font-size: 4.5em;"></a></i>
+       <p><h5>History</h5></p>
+    </div>
+</div>
+</div>
+
+
+    <!-- End your project here-->
+
+    <!-- MDB -->
+    <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+    <script type="text/javascript" src="assets/js/index.js"></script>
+    <!-- Custom scripts -->
+    <script type="text/javascript"></script>
+  </body>
+</html>
